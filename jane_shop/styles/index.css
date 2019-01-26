@@ -1,0 +1,80 @@
+#content {
+    margin: 10px auto;
+    width: 800px;
+}
+
+.content_left {
+    background: #eee;
+    border: 1px solid #aaa;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.global_module {
+    position: relative;
+    background: #eee;
+    padding-bottom: 8px;
+}
+.module_up_down {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.global_module h3 {
+    height: 26px;
+    background: #3b5998;
+    color: #fff;
+    line-height: 26px;
+    text-indent: 6px;
+}
+
+.content_left .new ul {
+    padding: 5px 0 5px 15px;
+}
+.content_left .procatalog ul {
+    padding: 5px 0 5px 15px;
+}
+
+.content_left .scrollNews {
+    width: 200px;
+    height: 85px;
+    line-height: 20px;
+    overflow: hidden;
+    background: #fff;
+}
+.content_left .scrollNews li {
+    height: 20px;
+}
+
+.procatalog .m-treeview {
+    background: #fff;
+}
+.procatalog .m-treeview li span {
+    cursor: pointer;
+}
+.procatalog .m-treeview li.m-expanded {
+    padding-left: 16px;
+    background: url("../images/treeview-expanded.gif") no-repeat 0 0;
+}
+
+.procatalog .m-treeview li.m-treeview ul li {
+    list-style-image: url("../images/treeview-item.gif")
+}
+
+.procatalog .m-treeview li.m-collapsed {
+    padding-left: 16px;
+    background: url("../images/treeview-collapsed.gif") no-repeat 0 0;
+}
+.procatalog .m-treeview li.m-collapsed ul{
+    display: none;
+}
+
+.content_right {
+    background: #eee;
+    border: 1px solid #aaa;
+    width: 586px;
+    float: left;
+}
